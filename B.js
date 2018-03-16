@@ -1,0 +1,8 @@
+var word_B = {
+	bolinao: ["baaw", "babali", "badak", "badanan", "baile", "bakas", "bake", "balasang", "bale", "balitok", "balon", "balsa", "baluto", "banong", "bansal", "bari", "bayente", "bikoy", "bilang", "bisang", "bitil", "buklas", "bulan", "bulo", "bulong", "buro", "busat", "butal", "butlay"],
+	tagalog: ['kaning lamig','bayan','bayawak','dahilan','sayaw','hitsura','unggoy','dalaga','bahay','kayamanan','baon','balsa','baon','naghihirap/walang pera','kasal','bali','bente','buto/gulong','parang','punit','gutom','umaga','buwan','pilay','dahon','uod','kapatid','sobra','gitna'],
+	english: ['rice','town','to be searched','reason','dance','looks','monkey','maiden','house','treasure/gold','pocket money','raft','boat','penniless','wedding','torn','twenty','seed/wheel','like/alike','tear','hungry','morning','moon/month','fracture','leaves','worm','brother/sister','excess','center'],
+	form: ['adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.','adj.'],
+	prons: ['ba-aw','ba-ba-li','ba-dak','ba-da-nan','bai-le','bakas','ba-ke','ba-la-sang','bale','ba-li-tok','ba-lon','bal-sa','ba-lu-to','ba-nong','ban-sal','ba-ri','ba-yen-te','bikoy','bilang','bi-sang','bi-til','buk-las','bu-lan','bulo-','bu-long','bu-ro','bu-sat','bu-tal','but-lay']
+};
+//for(var x = 0; x < word_B.bolinao.length;x++){console.log(word_B.bolinao[x] + " - "+ word_B.tagalog[x] + " - "+ word_B.english[x]+ " - "+ word_B.form[x]+ " - "+ word_B.prons[x]);console.log('-----');}
