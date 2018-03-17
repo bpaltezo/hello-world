@@ -1,5 +1,5 @@
 body{padding:0px;margin:0px;box-decoration-break:slice;}
-body{background-color:lightgray;}
+body{background-color:lightgray;overflow-y:none;}
 #header-div{width:98%;background-color:white;padding:1%;border-radius:5px;box-shadow:0 0 10px #223345;}
 #search-item{padding:1%;width:30%;margin:2% 2% 0;font-size:18pt;border:none;box-shadow:0 0 1px #223345;}
 #search-button{width:10%;font-size:16.5pt;padding:1%;background-color:rgba(0,0,0,0);border:none;box-shadow:0 0 1px #223345;margin-left;20%;cursor:pointer;color:#223345;margin-left:-1.5%;}
