@@ -19,7 +19,7 @@ body{padding:0px;margin:0px;box-decoration-break:slice;}
 #d-content-div li{border-top:1px solid #223355;color:#223345;font-family:calibri;font-size:24pt;margin-top:2%;margin-left:8%;width:70%;text-indent:2%;}
 #d-content-div article{font-size:15pt;margin-left:21%;}
 
-#d-feed-div{position:absolute;display:inline-block;width:87%;height:500px;overflow:auto;overflow-y:scroll;box-shadow:0 0 10px #223345;height:142.5%;margin:1%;background-color:white;border-radius:5px;}
+#d-feed-div{position:absolute;display:inline-block;width:87%;height:350px;overflow:auto;overflow-y:scroll;box-shadow:0 0 10px #223345;height:142.5%;margin:1%;background-color:white;border-radius:5px;}
 #d-feed-div h2{font-family:calibri;width:93.5%;text-shadow:1px 1px #223345;margin-left:2.5%;padding:1%;font-size:25pt;color:rgba(255,0,0,0.7);border-top:2px solid #223345;border-bottom:2px solid #223345;text-indent: 2.5%;}
 #d-feed-div article{width:80%;margin-left:10%;text-indent:7.5%;font-family:calibri;font-size:16pt;padding-top:0.3%;}
 #d-feed-div ul{list-style:square;width:45%;margin-left:33%;}
