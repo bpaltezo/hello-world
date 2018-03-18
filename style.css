@@ -28,7 +28,7 @@ body{padding:0px;margin:0px;box-decoration-break:slice;}
 
 #modal{position:absolute;display:none;width:100%;height:200%;background-color:rgba(22,33,45,0.97);margin-left:-11%;}
 
-#trans-div{position:absolute;display:inline-block;width:58%;box-shadow:0 0 10px #223345;height:81.5%;margin-left:17.5%;margin-top:1%;background-color: white;border-radius: 5px;}
+#trans-div{position:absolute;display:inline-block;width:68%;box-shadow:0 0 10px #223345;height:81.5%;margin-left:17.5%;margin-top:1%;background-color: white;border-radius: 5px;}
 #to-be-translated{display:inline-block;position:relative;width:70%;height:10%;box-shadow:0 0 10px #223345;padding:2%;margin-left:13.5%;margin-top:10%;font-family:calibri;font-size:18pt;}
 #trans-select-div{width:35%;margin-left:2%;font-family:calibri;padding:2%;margin-top:2.5%;}
 #trans-select-div data{position:relative;display:inline-block;font-size:13pt;font-family:calibri;margin-left:40%;padding:2%;margin-top:1.5px;}
