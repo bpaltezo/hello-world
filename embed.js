@@ -155,6 +155,8 @@ let parent_div = document.getElementById('d-body');
 				for(var x=0;x<data.rel.length;x++){
 					if(data.rel[x] =="found exact word"){
 						trans_input_after.innerText=data.bol[0];							
+					}else if(data.rel[x] =="related word"){
+						trans_input_after.innerText="Please be specific with your word";
 					}else{trans_input_after.innerText=sentences.T_noDataFound[0];close_modal.innerText=sentences.T_noDataFound[1]}
 				}
 			}
@@ -163,7 +165,9 @@ let parent_div = document.getElementById('d-body');
 			if(data){
 				for(var x=0;x<data.rel.length;x++){
 					if(data.rel[x] =="found exact word"){
-						trans_input_after.innerText=data.tag[0];							
+						trans_input_after.innerText=data.tag[0];
+						}else if(data.rel[x] =="related word"){
+						trans_input_after.innerText="Please be specific with your word";
 					}else{trans_input_after.innerText=sentences.T_noDataFound[0];close_modal.innerText=sentences.T_noDataFound[1]}
 				}
 			}
@@ -173,7 +177,10 @@ let parent_div = document.getElementById('d-body');
 				for(var x=0;x<data.rel.length;x++){
 					if(data.rel[x] =="found exact word"){
 						trans_input_after.innerText=data.eng[0];							
-					}else{trans_input_after.innerText=sentences.T_noDataFound[0];close_modal.innerText=sentences.T_noDataFound[1]}
+					}else if(data.rel[x] =="related word"){
+						trans_input_after.innerText="Please be specific with your word";
+					}
+					else{trans_input_after.innerText=sentences.T_noDataFound[0];close_modal.innerText=sentences.T_noDataFound[1]}
 				}
 			}
 			else{alert(sentences.T_noDataFound[2]);}
