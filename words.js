@@ -12,7 +12,8 @@ var sentences = {
 	tagalog: ['Saan ka pupunta? ','Ayaw ko nyan. ','Kuya/Ate pwede magtanong?','Kailan ka uuwi? ','Magkano ang pamasahe hanggang bayan? '],
 	english: ['Where are you going? ',"I don't like that.",'Can i ask you a question? ','When will you come home? ','How much it cost to travel to town? '],
 	prons: ['Ad-ti ka ma-ko?','Ka-e ko ra-bay en','Ang-kay mag-wa ma-ne-pet?','Ka-no ka ma-ga-wid?',"Om-no'y pa-sa-he- ang-gan ba-ba-li?",],
-	myReminder: ["Suppose you are traveling to Bolinao and finds it hard to communicate. Well, worry no more because here at BOLINAO INSIDER, we are giving you the most common bolinao dialogue that may help you to communicate upon your visit."]
+	myReminder: ["Suppose you are traveling to Bolinao and finds it hard to communicate. Well, worry no more because here at BOLINAO INSIDER, we are giving you the most common bolinao dialogue that may help you to communicate upon your visit."],
+	noData: ["Sorry no data found! Try searching your word at the search panel. Thanks"]
 };
 
 var links = {
