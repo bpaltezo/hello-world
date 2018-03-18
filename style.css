@@ -10,11 +10,11 @@ body{padding:0px;margin:0px;box-decoration-break:slice;}
 #translator:hover{background-color:rgba(255,0,0,0.5);color:white;border:2px solid white;transition:background-color 700ms,color 700ms,border 700ms;}
 
 #d-alpha-div{position:relative;display:inline-block;box-shadow:0 0 10px #223345;margin-top:1%;width:10%;background-color:white;border-radius:5px;margin-left:1%;}
-#d-alpha-parentList{list-style:none;margin-left:10%;}
+#d-alpha-parentList{list-style:none;margin-left:2%;}
 #d-alpha-div li{width:90%;margin-left:-33%;border:1px solid #223345;box-shadow:0 0 5px #223345;margin-top:7.5%;padding:5%;text-align:center;font-family:calibri;cursor:pointer;border-radius:7.5px;}
 #d-alpha-div li:hover{background-color:rgba(255,0,0,0.75);color:white;transition:background-color 700ms,color 700ms;}
 
-#d-content-div{position:absolute;display:none;box-shadow:0 0 10px #223345;width:87%;background-color: white;margin-top:1%;margin-left:1%;border-radius:5px;}
+#d-content-div{position:absolute;display:none;box-shadow:0 0 10px #223345;width:87%;height:100%;overflow:auto;overflow-y:scroll;background-color: white;margin-top:1%;margin-left:1%;border-radius:5px;}
 #d-content-h1{width:80%;font-family:calibri;text-align:left;color:white;text-indent:7.5%;font-size:40pt;background-color:red;border-top-right-radius:15px;border-bottom-right-radius:15px;}
 #d-content-div li{border-top:1px solid #223355;color:#223345;font-family:calibri;font-size:24pt;margin-top:2%;margin-left:8%;width:70%;text-indent:2%;}
 #d-content-div article{font-size:15pt;margin-left:21%;}
