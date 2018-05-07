@@ -1,4 +1,4 @@
-let parent_div = document.getElementById('d-body');
+let parent_div = document.getElementsByTagName('body')[0];
 	let header_div = document.createElement('div');
 	let d_alpha_div = document.createElement('div');
 	let d_content_div = document.createElement('div');
